@@ -1,0 +1,16 @@
+@import "/PatProject/Metting/scss/_null";
+@import "/PatProject/Metting/scss/_var";
+@import "/PatProject/Metting/scss/_header";
+@import "/PatProject/Metting/scss/main/_visit";
+@import "/PatProject/Metting/scss/main/_rate";
+@import "/PatProject/Metting/scss/main/_sponsors";
+@import "/PatProject/Metting/scss/main/_features";
+@import "/PatProject/Metting/scss/_adaptive";
+
+h1,h2,h3,h4,h5,h6,p,a{
+	font-family: $font1;
+}
+
+a:visited{
+	color: inherit;
+}

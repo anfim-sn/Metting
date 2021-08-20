@@ -1,0 +1,47 @@
+.container{
+	width: 70vw;
+	padding: 0 20px;
+	margin: auto;
+}
+
+
+.main__visit {
+	margin-bottom: 10vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main__visit-lside {
+	width: 32vw;
+}
+.main__visit-title {
+	margin-bottom: 16px;
+	font-weight: 600;
+	font-size: 3vw;
+	line-height: 3.5vw;
+	color: $colortxt;
+}
+.main__visit-subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2vw;
+	line-height: 2vw;
+	color: $colortxt;
+	margin-bottom: 34px;
+}
+.main__visit-a {
+	padding: 1vw 1.5vw;
+	background-color: $color2;
+	border-radius: 6px;
+}
+.main__visit-atext {
+	font-weight: 500;
+	font-size: 1.2vw;
+	line-height: 21px;
+	color: $colortxt;
+}
+
+.main__visit-img{
+	height: 25vw;
+}
