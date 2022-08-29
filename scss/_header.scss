@@ -1,0 +1,81 @@
+.header__container{
+	width: 70vw;
+	height: 52px;
+	margin: 3vw auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__lside{
+	width: 50%;
+	height: 52px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+}
+.header__logo-a {
+	height: 52px;
+	display: flex;
+	align-items: center;
+}
+.header__logo-img {
+	height: 1.5vw;
+	margin-right: 0.5vw;
+}
+.header__logo-title {
+	color: $color1;
+	font-weight: 600;
+	font-size: 1.1vw;
+	line-height: 1vw;
+}
+.header__nav {
+	margin-left: 3vw;
+}
+.header__nav-nav {
+	width: 26vw;
+	height: 52px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__nav-a {
+}
+.header__nav-li {
+	list-style: none;
+}
+.header__nav-p {
+	font-weight: 500;
+	font-size: 1vw;
+	line-height: 20px;
+	color: $colortxt;
+}
+.header__rside {
+	width: 17vw;
+	height: 52px;
+	display: flex;
+	align-items: center;
+}
+.header__rside-button {
+}
+.signup-a {
+	margin-right: 2vw;
+}
+.download-a {
+	padding: 1.1vw 2vw;
+	border-radius: 6px;
+	background-color: $color1;
+}
+.header__rside-p {
+}
+.signup-p {
+	color: $color1;
+	font-weight: 500;
+	font-size: 1vw;
+}
+.download-p {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1vw;
+}
